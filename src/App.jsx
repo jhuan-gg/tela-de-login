@@ -2,8 +2,8 @@ import React from 'react';
 import LoginForm from './components/LoginForm';
 
 const App = () => {
-  return (
-    <div>
+  return (//local do unico component
+    <div> 
       <LoginForm />
     </div>
   );

@@ -2,9 +2,9 @@ import React from 'react';
 import './styles.css';
 
 const LoginForm = () => {
-  return (
+  return (// construção do container principal 
     <div className="login-container">
-      <h1>Sign in to your account</h1>
+      <h1>Sign in to your account</h1> 
       <form className="login-form">
         <div className="form-group">
           <label htmlFor="username">Username or email address</label>
